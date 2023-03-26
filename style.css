@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+#conteudo {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+#menu {
+    float: left;
+    text-decoration: underline;
+    position: static;
+    display: inline-block;
+    width: 20%;
+    margin: 5px;
+    padding: 0;
+}
+#menu ul li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    list-style-type: none;
+}
+#menu a:link{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+#menu a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+#logo {
+    text-align: center;
+    font-size: 25px;
+    position: sticky;
+}
+a {
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;   
+}
+center img {
+    border-style: double;
+}
+#footer hr {
+    width: 60%;
+}
+#conteudo ul li {
+    margin: 10px;
+    padding: 20px;
+    list-style-type: none;
+    font-size: 25px;
+}#conteudo ul {
+    border-style: double;
+}
